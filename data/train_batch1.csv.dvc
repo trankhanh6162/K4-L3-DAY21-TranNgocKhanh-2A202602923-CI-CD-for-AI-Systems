@@ -1,3 +1,4 @@
+# Step 3: data commit triggers continuous training
 # train_batch2 appended: 22361 -> 44722 samples
 outs:
 - md5: a8dce66c4576ca2cb7da42a584fe31b3
