@@ -1,0 +1,14 @@
+[Unit]
+Description=Income Model Inference Server
+After=network.target
+
+[Service]
+User=khanh
+WorkingDirectory=/home/khanh
+Environment="ARTIFACT_BUCKET=project-63f85ae6-d492-48ee-a7a-income-lab"
+ExecStart=/home/khanh/income-venv/bin/python /home/khanh/src/serve.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

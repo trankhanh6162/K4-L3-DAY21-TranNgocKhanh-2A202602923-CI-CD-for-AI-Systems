@@ -1,0 +1,4 @@
+[core]
+    remote = labstore
+['remote "labstore"']
+    url = gs://project-63f85ae6-d492-48ee-a7a-income-lab/dvc
